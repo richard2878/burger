@@ -3,7 +3,8 @@ body {
 }
 
 img {
-    text-align: center;
+	text-align: center;
+	mix-blend-mode: multiply;
 }
 
 h1 {
@@ -35,5 +36,6 @@ h3 {
     padding:10px;
     display:inline-block;
     color:gray;
-    background-color:white;
+	background-color:white;
+	border-radius:5px, 5px, 5px, 5px;
 }
