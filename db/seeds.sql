@@ -1,8 +1,3 @@
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("guacamole bacon", true);
-
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("taki on patties", true);
-
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("siracha", true);
+INSERT INTO burgers (name) VALUES ('Taki Burger');
+INSERT INTO burgers (name) VALUES ('Guacamole Bacon');
+INSERT INTO burgers (name, devour) VALUES ('Sriracha', false);

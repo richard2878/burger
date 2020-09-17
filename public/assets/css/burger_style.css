@@ -1,60 +1,39 @@
-* {
-	box-sizing: border-box;
-}
-
 body {
-	position: relative;
-	font-family: 'Passion One', cursive;
-	font-size: 2em;
+    background-color: lightcoral;
 }
 
-body:after {
-	content : "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-image: url(../image/burger_background.jpg);
-	background-size: cover;
-	background-repeat:no-repeat;
-	width: 100%;
-	min-height: 100vh;
-	opacity : 0.3;
-	z-index: -1;
+img {
+    text-align: center;
 }
 
 h1 {
-	color: green;
-	font-size: 2em !important;
+    text-align: center;
+    color: darkred;
 }
 
-#page-name {
-	text-align: center;
-	margin: 30px 0;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
 }
 
-#main-image {
-	height: 150px;
+h3 {
+    text-align: center;
 }
 
-.col-left {
-	padding-left: 20%;
+.toBeDevoured {
+    margin: 0 10px 20px 500px;
+    padding:10px;
+    display:inline-block;
+    background-color:white
 }
 
-.col-right {
-	text-align: left;
-}
-
-.table-first-col {
-	width: 270px;
-}
-
-td {
-    height: 50px;
-    vertical-align: center;
-}
-
-.create-form {
-	margin-top: 50px;
-	text-align: center;
+.devoured {
+    margin: 0 0 20px 0;
+    padding:10px;
+    display:inline-block;
+    color:gray;
+    background-color:white;
 }
